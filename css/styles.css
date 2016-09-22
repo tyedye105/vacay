@@ -4,6 +4,8 @@ span {
 }
 body {
   background-image: url(https://images.freecreatives.com/wp-content/uploads/2015/10/beach-waves-sunset-wide-high-definition-wallpaper.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .container {
