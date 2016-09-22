@@ -1,0 +1,17 @@
+span {
+  font-weight: bold;
+  font-style: italic;
+}
+body {
+  background-image: url(https://images.freecreatives.com/wp-content/uploads/2015/10/beach-waves-sunset-wide-high-definition-wallpaper.jpg);
+}
+
+.container {
+  background-color: #0080AB;
+  height: auto;
+  color: black;
+}
+
+.jumbotron {
+  background-color: #F26405;
+}
