@@ -22,9 +22,9 @@
       <p>
         Using complex logic, complex alogrithms, and a survey we can give you a rough idea where you should go for vacation! Click the button below to begin.
       </p>
-
       <br>
       <button type="button" class="btn btn-default btn-lg btn-block">Begin!</button>
+    </div>
       <div id="japan">
           <h2 class="result">Come to Japan!</h2>
          <img class="img-responsive center-block" src="img/jpn.jpg" alt="glowing lanterns strewn admist the cherry blossoms!" />
@@ -54,8 +54,83 @@
         Based of your answers, you should plan to take your vacation to the land famous for runes, vikings, and Norse Mythology. Take a relaxing dip into the Blue Lagoon, or chose to go hiking in one of the many national parks.  And if you plan to visit during fall or winter seasons, look up to the skies and gaze upon the beauty of the Aurora Borealis.
       </div>
 
+      <div id="questionaire">
+        <h2> The Survey!</h1>
+        <form class="form-group" id="survey">
+        <h3>1. What season is your favorite?</h3>
+        <div class="radio">
+          <label>
+          <input type="radio" name="season" value="summer" checked>
+          Summer
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+          <input type="radio" name="season" value="fall">
+          Fall
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+          <input type="radio" name="season" value="winter">
+          Winter
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+          <input type="radio" name="season" value="spring">
+          Spring
+          </label>
+        </div>
+        <h3>2. Which activty do you enjoy the most</h3>
+        <select class="form-control" id='activity'>
+          <option>Hiking</option>
+          <option>Swiming</option>
+          <option>Traveling</option>
+          <option>Watching nature</option>
+        </select>
+        <h3>3. On vacation you would prefer to drink</h3>
+        <select class="form-control" id='drink'>
+          <option>a drink blue as the ocean itself</option>
+          <option>a tankard of mead</option>
+          <option>a cup of green tea</option>
+          <option>a slushy cider</option>
+        </select>
+        <h3>4. A ring: <h3>
+          <select class="form-control" id='ring'>
+            <option>must be thrown into the fires of Mt.Doom</option>
+            <option>refers to a piece of armor</option>
+            <option>creepy girl</option>
+            <option>can be sold for profit!</option>
+          </select>
+        <h3>5. Choose your companion.</h3>
+        <div class="radio">
+          <label>
+          <input type="radio" name="companion" value="pirate" checked>
+        Pirate
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+          <input type="radio" name="companion" value="hobbit">
+        Hobbit
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+          <input type="radio" name="companion" value="vikingr">
+        Viking
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+          <input type="radio" name="companion" value="ninja">
+        Ninja
+          </label>
+        </div>
+      </form>
+      </div>
 
-
-
+    </div>
   </body>
 </html>
