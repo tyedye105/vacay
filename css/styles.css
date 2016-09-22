@@ -22,3 +22,22 @@ body {
   text-align: center;
 
 }
+
+#japan {
+  display: none;
+}
+
+#newzealand {
+  display: none;
+}
+
+#carribean {
+  display: none;
+}
+
+#iceland {
+  display: none;
+}
+#landing {
+  display: none;
+}
