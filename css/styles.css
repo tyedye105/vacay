@@ -23,19 +23,19 @@ body {
 
 }
 
-#japan {
+#hidden-japan {
   display: none;
 }
 
-#newzealand {
+#hidden-newzealand {
   display: none;
 }
 
-#carribean {
+#hidden-carribean {
   display: none;
 }
 
-#iceland {
+#hidden-iceland {
   display: none;
 }
 #landing {
