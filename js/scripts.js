@@ -27,6 +27,36 @@
 
  }
 
+ var goLanding = function( favoriteSeason, favoriteActivity) {
+   if (favoriteSeason === "carribean1" && favoriteActivity === "carribean2") {
+     $("#hidden-carribean").hide();
+     $("#landing").show();
+     alert("done");
+     event.preventDefault();
+
+
+    } else if (favoriteSeason === "iceland1" && favoriteActivity === "iceland2") {
+      $("#questionaire").toggle();
+      $("#hidden-iceland").toggle();
+      alert("hi");
+      event.preventDefault();
+
+
+    } else if (favoriteSeason === "japan1" && favoriteActivity === "japan2") {
+      $("#questionaire").toggle();
+      $("#hidden-japan").toggle();
+      alert("hi");
+      event.preventDefault();
+    } else if (favoriteSeason === "newzealand1" && favoriteActivity === "newzealand2") {
+      $("#questionaire").toggle();
+      $("#hidden-newzealand").toggle();
+      alert("hi");
+      event.preventDefault();
+
+   }
+
+ }
+
 
 
 
@@ -39,11 +69,19 @@ $(document).ready(function(event) {
     var ringResponse = $("#ring").val();
     var favoriteCompanion = $("input:radio[name=companion]:checked").val();
     var destination = yourVacation(favoriteSeason, favoriteActivity);
+    $("button.to-landing").click(function(event) {
+      alert(favoriteSeason);
+      goLanding (favoriteSeason, favoriteActivity);
+      event.preventDefault();
+    });
 
 
+  });
+  $("button#begin").click(function(event) {
+    $("#landing").hide();
+    $("#questionaire").show();
+    event.preventDefault();
+  });
 
-
-
-
-});
+//endingtag
 });

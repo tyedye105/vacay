@@ -38,6 +38,13 @@ body {
 #hidden-iceland {
   display: none;
 }
-#landing {
+
+
+#carribean-img {
+  max-width: 75%;
+  max-height: 75%;
+}
+
+#questionaire {
   display: none;
 }

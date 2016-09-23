@@ -13,52 +13,59 @@
       <div class="jumbotron">
       <h1>Are you ready for a vacation?</h1>
       </div>
-
-      <h2>YES!</h2>
-      <p>
-      But whats that? You don't know where exactly you should take your vacation?
-      </p>
-      <h2>Then we have a <span>solution</span> for you</h2>
-      <p>
-        Using complex logic, complex alogrithms, and a survey we can give you a rough idea where you should go for vacation! Click the button below to begin.
-      </p>
-      <br>
-      <button type="button" class="btn btn-default btn-lg btn-block">Begin!</button>
+        <h2>YES!</h2>
+        <p>
+        But whats that? You don't know where exactly you should take your vacation?
+        </p>
+        <h2>Then we have a <span>solution</span> for you</h2>
+        <p>
+          Using complex logic, complex alogrithms, and a survey we can give you a rough idea where you should go for vacation! Click the button below to begin.
+        </p>
+        <br>
+      <button  class="btn btn-default btn-lg btn-block" id="begin">Begin!</button>
     </div>
       <div id="hidden-japan">
           <h2 class="result">Come to Japan!</h2>
-         <img class="img-responsive center-block" src="img/jpn.jpg" alt="glowing lanterns strewn admist the cherry blossoms!" />
+         <img class="img-responsive center-block" src="img/jpn.jpg" alt="glowing lanterns strewn admist the cherry blossoms!">
          <p>
            Based of your answers, you should plan to take you vacation in the land of the cherry blossoms. If you wish to see the cherry blossoms plan on booking a vacy in April, as with the coming of spring comes fleeting beauty of cherry blossoms. Just be careful of who you anger, it is the land of shinobi after all, nothing like a shuriken in the back to cut your vactaion short.
          </p>
+         <button class="btn center-block">Click here to go back to the home screen!</button>
+         <button class="btn center-block">Click here to go back to Survey!</button>
       </div>
       <div id="hidden-newzealand">
-      <h2 class="result"> Come to New Zealand!</h2>
-      <img class="img-responsive center-block" src="img/newzland.jpg" alt="A picture of a hobbit dwelling from the famous Lord of The Rings Movies" />
-      <p>
-        Based of your answers, you should plan to take your vacation into the land of hobbits and sunshine.  New Zealand has plenty to offer a Lord of the Rings enthusiaist, with tours of the locations in the famous triology.  For those who could care less why a group of hobbits is traveling to Mt.Doom, there is plenty of sand, surf, and pristine waters to enjoy. Just look out for sharks, and maybe a stray orc or two.
-      </P>
+        <h2 class="result"> Come to New Zealand!</h2>
+        <img class="img-responsive center-block" src="img/newzland.jpg" alt="A picture of a hobbit dwelling from the famous Lord of The Rings Movies">
+        <p>
+          Based of your answers, you should plan to take your vacation into the land of hobbits and sunshine.  New Zealand has plenty to offer a Lord of the Rings enthusiaist, with tours of the locations in the famous triology.  For those who could care less why a group of hobbits is traveling to Mt.Doom, there is plenty of sand, surf, and pristine waters to enjoy. Just look out for sharks, and maybe a stray orc or two.
+        </P>
+        <button name="back" class="btn center-block">Click here to go back to the home screen!</button>
+        <button name="back" class="btn center-block">Click here to go back to Survey!</button>
       </div>
       <div id="hidden-carribean">
-      <h2 class="result"> Come to Carribean!</h2>
-      <img class="img-responsive center-block" src="img/caribbean.jpg" alt="A picture of a fish and a turtle in clear waters of the Carribean" />
-      <p>
-        Based of your answers, you should plan to take your vacation to the tropical islands of the Carribean.  Here you can find breath taking sunsets as you kayak back to the shore. Dive into the blue oceans and swim among the denizens of the deep, or perhaps go snorkeling in the in the colorful reefs. Or if find that too mundane, gather your best mates under the Jolly Rodger and create your own pirate legacy, be it four centuries too late.
+        <h2 class="result"> Come to Carribean!</h2>
+        <img class="img-responsive center-block" id="carribean-img"  src="img/caribbean.jpg" alt="A picture of a fish and a turtle in clear waters of the Carribean">
         <p>
+          Based of your answers, you should plan to take your vacation to the tropical islands of the Carribean.  Here you can find breath taking sunsets as you kayak back to the shore. Dive into the blue oceans and swim among the denizens of the deep, or perhaps go snorkeling in the in the colorful reefs. Or if find that too mundane, gather your best mates under the Jolly Rodger and create your own pirate legacy, be it four centuries too late.
+        <p>
+        <button name="back" class="btn center-block to-landing">Click here to go back to the home screen!</button>
+        <button name="back" class="btn center-block">Click here to go back to Survey!</button>
       </div>
       <div id="hidden-iceland">
-      <h2 class="result"> Come to Iceland!</h2>
-      <img class="img-responsive center-block" src="img/icelnd.jpg" alt="A breathing taking picture of iceland basking in the Aurora Borealis" />
-
-      <p>
-        Based of your answers, you should plan to take your vacation to the land famous for runes, vikings, and Norse Mythology. Take a relaxing dip into the Blue Lagoon, or chose to go hiking in one of the many national parks.  And if you plan to visit during fall or winter seasons, look up to the skies and gaze upon the beauty of the Aurora Borealis.
+        <h2 class="result"> Come to Iceland!</h2>
+        <img class="img-responsive center-block" src="img/icelnd.jpg" alt="A breathing taking picture of iceland basking in the Aurora Borealis">
+          <p>
+            Based of your answers, you should plan to take your vacation to the land famous for runes, vikings, and Norse Mythology. Take a relaxing dip into the Blue Lagoon, or chose to go hiking in one of the many national parks.  And if you plan to visit during fall or winter seasons, look up to the skies and gaze upon the beauty of the Aurora Borealis.
+          </p>
+        <button name="back" class="btn center-block">Click here to go back to the home screen!</button>
+        <button name="back" class="btn center-block">Click here to go back to Survey!</button>
       </div>
 
       <div id="questionaire">
         <h2> The Survey!</h1>
         <form class="form-group" id="survey">
         <h3>1. What season is your favorite?</h3>
-        <div class="radio">
+          <div class="radio">
           <label>
           <input type="radio" name="season" value="carribean1" checked>
           Summer
