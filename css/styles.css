@@ -15,12 +15,13 @@ body {
 }
 
 .jumbotron {
-  background-color: #F26405;
+  background-color: #BA4F07;
 }
-
+/   background-color:#BA4F07;  background-color: #F26405;
 .result {
   text-align: center;
-
+  font-style: italic;
+  font-weight: bold;
 }
 
 #hidden-japan {
@@ -47,4 +48,9 @@ body {
 
 #questionaire {
   display: none;
+}
+
+
+.btn-block {
+  margin: 5px;
 }
