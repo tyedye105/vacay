@@ -7,13 +7,11 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 .container {
   background-color: #0080AB;
   height: auto;
   color: black;
 }
-
 .jumbotron {
   background-color: #BA4F07;
 }
@@ -23,34 +21,25 @@ body {
   font-style: italic;
   font-weight: bold;
 }
-
 #hidden-japan {
   display: none;
 }
-
 #hidden-newzealand {
   display: none;
 }
-
 #hidden-carribean {
   display: none;
 }
-
 #hidden-iceland {
   display: none;
 }
-
-
 #carribean-img {
   max-width: 75%;
   max-height: 75%;
 }
-
 #questionaire {
   display: none;
 }
-
-
 .btn-block {
   margin: 5px;
 }
